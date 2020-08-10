@@ -7,7 +7,7 @@
         <i class="fab fa-github"></i>
         Github
       </a>
-      <a tabindex="0" class="clickable" (click)="clickRepo.emit()" >Repos</a>
+      <a class="clickable" [routerLink]="'/view-repos/' + user.userName">Repos</a>
     </div>
   </div>
 </div>

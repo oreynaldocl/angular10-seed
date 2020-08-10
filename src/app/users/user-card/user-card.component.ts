@@ -9,8 +9,6 @@ import { User } from '../../core';
 export class UserCardComponent implements OnInit {
   @Input() user: User;
 
-  @Output() clickRepo = new EventEmitter<void>();
-
   constructor() { }
 
   ngOnInit(): void {

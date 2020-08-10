@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'view-users',
     loadChildren: () => import('./users/users.module').then(m => m.UsersModule),
   },
+  {
+    path: 'view-repos',
+    loadChildren: () => import('./repos/repositories.module').then(m => m.RepositoriesModule),
+  },
 ];
 
 @NgModule({
