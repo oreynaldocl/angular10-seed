@@ -1,0 +1,14 @@
+{
+  "/users/*": {
+    "target": "https://api.github.com",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/repos/*": {
+    "target": "https://api.github.com",
+    "secure": true,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

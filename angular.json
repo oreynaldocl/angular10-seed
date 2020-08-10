@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang10-seed"
+    }
+  },
+  "defaultProject": "ang10-seed",
+  "cli": {
+    "analytics": "ce37a2b7-9990-43af-8002-3991bd7e37a2"
+  }
 }
